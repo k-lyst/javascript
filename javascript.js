@@ -1,4 +1,4 @@
-//alert("ce site va te hack toutes tes données")
+alert("ce site va te hack toutes tes données")
 
 
 /*
@@ -36,7 +36,7 @@ const h1 = document.querySelector("h1");
 const body = document.querySelector("body");
 const paragraphs = document.querySelectorAll("p");
 const button = document.querySelector("button");
-
+const bongo = document.querySelector("#image1");
 // Evenement
 
 button.addEventListener("click", function() {
@@ -54,6 +54,19 @@ button.addEventListener("click", function() {
         }
 })
     
+bongo.addEventListener("click", function( ){
+    if (bongo.className == 'image'){
+        bongo.src = 'images/korean-bbq.jpg'
+        bongo.classList.toggle ('image')
+    }
+    else{
+        bongo.src = 'images/troll face.png'
+        bongo.classList.toggle ('image')
+    }
+
+}
+)
+
 
 const button4 = document.getElementById("uwu")
 

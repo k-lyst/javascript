@@ -3,6 +3,27 @@ body {
     color: #380051;
 }
 
+image {
+    
+}
 
+#image1 {
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+    outline: auto;
+}
 
+h1 {
+    text-align: center;
+    outline: auto;
+    font-family: 'Anton', sans-serif;
+}
+
+#btn {
+    
+    margin-left: 47%;
+    outline: auto;
+    
+}
 
